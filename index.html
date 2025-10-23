@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mystique Cafe — Menü</title>
+  <meta name="description" content="Mystique Cafe menüsü — kahveler, yemekler, nargile ve tatlılar." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="Mystique Cafe logo" class="logo">
+        <span class="brand-text">Mystique Cafe</span>
+      </a>
+
+      <button id="nav-toggle" aria-label="Menüyü aç" class="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Ana navigasyon">
+        <ul>
+          <li><button data-target="soft" class="nav-btn active">Soft İçecekler</button></li>
+          <li><button data-target="coffee" class="nav-btn">Kahveler</button></li>
+          <li><button data-target="beer" class="nav-btn">Biralar</button></li>
+          <li><button data-target="main" class="nav-btn">Ana Yemekler</button></li>
+          <li><button data-target="pasta" class="nav-btn">Makarnalar</button></li>
+          <li><button data-target="snack" class="nav-btn">Aparatifler</button></li>
+          <li><button data-target="dessert" class="nav-btn">Tatlılar</button></li>
+          <li><button data-target="hookah" class="nav-btn">Nargile</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="soft" class="menu-section active">
+      <h2>🥤 Soft İçecekler</h2>
+      <div class="grid">
+        <article class="card"><h3>Coca Cola / Fanta / Sprite</h3><p class="price">₺50</p></article>
+        <article class="card"><h3>Ice Tea (Şeftali, Limon, Mango)</h3><p class="price">₺60</p></article>
+        <article class="card"><h3>Limonata</h3><p class="price">₺70</p></article>
+        <article class="card"><h3>Taze Sıkılmış Portakal Suyu</h3><p class="price">₺90</p></article>
+        <article class="card"><h3>Milkshake (Çilek, Muz, Çikolata)</h3><p class="price">₺95</p></article>
+        <article class="card"><h3>Atom</h3><p class="price">₺100</p></article>
+        <article class="card"><h3>Churchill</h3><p class="price">₺45</p></article>
+      </div>
+    </section>
+
+    <section id="coffee" class="menu-section">
+      <h2>☕ Kahveler</h2>
+      <div class="grid">
+        <article class="card"><h3>Türk Kahvesi</h3><p class="price">₺70</p></article>
+        <article class="card"><h3>Espresso</h3><p class="price">₺80</p></article>
+        <article class="card"><h3>Latte / Cappuccino</h3><p class="price">₺95</p></article>
+        <article class="card"><h3>Mocha / Macchiato</h3><p class="price">₺100</p></article>
+      </div>
+    </section>
+
+    <section id="beer" class="menu-section">
+      <h2>🍺 Biralar (33cl)</h2>
+      <div class="grid">
+        <article class="card"><h3>Efes Pilsen</h3><p class="price">₺120</p></article>
+        <article class="card"><h3>Bomonti Filtresiz</h3><p class="price">₺130</p></article>
+        <article class="card"><h3>Corona Extra</h3><p class="price">₺150</p></article>
+        <article class="card"><h3>Heineken</h3><p class="price">₺140</p></article>
+      </div>
+    </section>
+
+    <section id="main" class="menu-section">
+      <h2>🥩 Ana Yemekler</h2>
+      <div class="grid">
+        <article class="card"><h3>Antrikot Izgara</h3><p class="price">₺250</p></article>
+        <article class="card"><h3>Tavuk Izgara (Göğüs)</h3><p class="price">₺180</p></article>
+      </div>
+    </section>
+
+    <section id="pasta" class="menu-section">
+      <h2>🍝 Makarnalar</h2>
+      <div class="grid">
+        <article class="card"><h3>Napoliten Makarna</h3><p class="price">₺140</p></article>
+        <article class="card"><h3>Alfredo Makarna</h3><p class="price">₺150</p></article>
+      </div>
+    </section>
+
+    <section id="snack" class="menu-section">
+      <h2>🍔 Aparatifler</h2>
+      <div class="grid">
+        <article class="card"><h3>Cheeseburger</h3><p class="price">₺170</p></article>
+        <article class="card"><h3>Tavuk Burger</h3><p class="price">₺160</p></article>
+        <article class="card"><h3>Keyif Tabağı</h3><p class="desc">Sigara böreği, sosis, soğan halkası, çıtır tavuk ve baharatlı patates cipsi</p><p class="price">₺200</p></article>
+        <article class="card"><h3>Çıtır Tavuk</h3><p class="desc">Baharatlı patates cipsiyle servis edilir</p><p class="price">₺180</p></article>
+      </div>
+    </section>
+
+    <section id="dessert" class="menu-section">
+      <h2>🍰 Tatlılar</h2>
+      <div class="grid">
+        <article class="card"><h3>Sufle</h3><p class="price">₺120</p></article>
+        <article class="card"><h3>Cheesecake</h3><p class="price">₺130</p></article>
+        <article class="card"><h3>Havalı Pasta</h3><p class="price">₺140</p></article>
+      </div>
+    </section>
+
+    <section id="hookah" class="menu-section">
+      <h2>💨 Nargile</h2>
+      <div class="grid">
+        <article class="card"><h3>Elma</h3><p class="price">₺200</p></article>
+        <article class="card"><h3>Üzüm</h3><p class="price">₺200</p></article>
+        <article class="card"><h3>Karışık Meyve</h3><p class="price">₺220</p></article>
+        <article class="card"><h3>Karpuz Nane</h3><p class="price">₺230</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>📸 Bizi Instagram'da takip et: <a href="https://www.instagram.com/myscafe.2025" target="_blank" rel="noopener">@myscafe.2025</a></p>
+      <p class="muted">© Mystique Cafe — Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
